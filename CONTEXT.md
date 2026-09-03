@@ -28,3 +28,18 @@
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` a11y `span.report-a-problem-btn` has no keydown handler for Enter/Space (WCAG 2.1.1 Keyboard). Repro: focus the span on the report page, press Enter/Space — nothing happens; click works. Expected: Enter/Space triggers scroll-to-top + focus `#pc`, matching the click handler and the dropzone keydown pattern in `web/js/front.js`. Dedupe: merged PR #4919 added role/tabindex only; open PR #5184 is sass styling only. — status: attempted (pr-opened, fork PR #1)
+- `2026-09-03` self-found trivial pass (typos + dead links in docs + one cobrand template) — outcome: pr-opened (fork PR #2). Lesson: docs-only, meaning-preserving cleanup; UK dialect respected (colour/behaviour/organise are correct, not typos).
+
+## Mined gaps (discovered, not yet attempted)
+- `2026-09-03` typo "propogate/propogating" x3 in docs/customising/integration.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` typo "difference scale" + "Pubic Builds" in docs/install/ami.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` typo "This pages" in docs/install/vagrant.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` typo "it there are" in docs/updating/ami.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` typo "untill" in templates/web/peterborough/waste/_service_missed.html — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` dead link MDN truncated URL in docs/customising/css.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` dead link mapit.poplus.org in docs/_posts/2012-10-02-easy-install.md + docs/glossary.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` dead link transifex projects/p/fixmystreet in docs/customising/language/index.md + docs/_posts/2014-11-20-v1.5.md — status: attempted (pr-opened, fork PR #2)
+- `2026-09-03` skipped: fixmystreet.org.au / cuidomiprovincia.diputaciondevalladolid.es (connection failures, possibly temporary) — dropped
+- `2026-09-03` skipped: makemyisland.mv (no DNS, but inside a press-release quote) — dropped
+- `2026-09-03` skipped: borsetshire.gov.uk image (fictional council placeholder) — dropped
+- `2026-09-03` skipped: fr./de./sv./sf.fixmystreet.com (illustrative example URLs in prose) — dropped
