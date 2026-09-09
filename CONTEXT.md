@@ -1,5 +1,5 @@
 # mysociety/fixmystreet context
-> refreshed 2026-09-03 | upstream default: master @ 82384aa80e
+> refreshed 2026-09-09 | upstream default: master @ d1426634496
 
 ## Identity & policies
 - upstream: mysociety/fixmystreet, default branch `master`, primary language Perl (Catalyst), English-first (UK English).
