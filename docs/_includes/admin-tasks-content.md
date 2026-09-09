@@ -980,7 +980,7 @@ that has updated the report.
 
 ##### Attaching states and external status codes
 
-Depending on whether or not your FixMyStreet Pro is integrated with one of your existing systems (such as a CRM or asset management system) you can either select to attatch a 'State' to this response template (eg. 'Open', 'In progress', 'Fixed'), so that the template response is automatically used when that state is applied to a report, <strong>OR</strong> you can attach an External status code, which will tell FixMyStreet Pro to use this response template when a report's status changes within your integrated system (eg. Confirm). 
+Depending on whether or not your FixMyStreet Pro is integrated with one of your existing systems (such as a CRM or asset management system) you can either select to attach a 'State' to this response template (eg. 'Open', 'In progress', 'Fixed'), so that the template response is automatically used when that state is applied to a report, <strong>OR</strong> you can attach an External status code, which will tell FixMyStreet Pro to use this response template when a report's status changes within your integrated system (eg. Confirm). 
 
 <img loading="lazy" alt="States or external status codes tell FixMyStreet when to send this response" src="/assets/img/pro-user-guide/States and external status codes.png" class="admin-screenshot"/>
 
