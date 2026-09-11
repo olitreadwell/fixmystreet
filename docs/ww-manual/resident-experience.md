@@ -13,7 +13,7 @@ This section of the user manual aims to help you understand how WasteWorks works
 
 This guide provides a **general overview** of each of WasteWorks' standard resident-facing features. There may be small differences in how the software functions for different councils, depending on how you use the service, the integration(s) you have selected, and the individual processes reflected in your workflow. 
 
-Please speak to your Administrator if you have questions about functionality not covered specfically in the below guidance. If you are the Administrator and you need extra help, please open a ticket on Freshdesk.
+Please speak to your Administrator if you have questions about functionality not covered specifically in the below guidance. If you are the Administrator and you need extra help, please open a ticket on Freshdesk.
 
 ***
 
@@ -125,7 +125,7 @@ Next, the user can select items that can be collected in this service from a dro
 
 <img alt="Select small items drop down menu" src="/assets/img/ww-user-guide/WasteWorks%20choose%20small%20item%20menu.png" class="admin-screenshot" />
 
-Addtional items can be added by selecting 'Add item'. 
+Additional items can be added by selecting 'Add item'. 
 
 <img alt="Add item to booking" src="/assets/img/ww-user-guide/WasteWorks%20add%20item%20to%20small%20item%20waste%20collection.png" class="admin-screenshot" />
 
@@ -161,5 +161,5 @@ WasteWorks will ask the resident to select which collection they would like to r
 
 <img alt="Report a problem" src="/assets/img/ww-user-guide/WasteWorks-report-problem-with-collection.png" class="admin-screenshot" />
 
-Updates on the progress of their reports will be provided as per the response templates you have set up in the adminstration area (see the <a href="https://www.societyworks.org/manuals/wasteworks/admin-tasks/#creating-and-editing-response-templates">'Creating and editing response templates' section</a>) and/or according to the integration(s) you have set up.
+Updates on the progress of their reports will be provided as per the response templates you have set up in the administration area (see the <a href="https://www.societyworks.org/manuals/wasteworks/admin-tasks/#creating-and-editing-response-templates">'Creating and editing response templates' section</a>) and/or according to the integration(s) you have set up.
 
