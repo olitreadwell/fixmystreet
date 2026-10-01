@@ -1,5 +1,5 @@
 # mysociety/fixmystreet context
-> refreshed 2026-09-10 | upstream default: master @ d1426634496
+> refreshed 2026-10-01 | upstream default: master @ ce880e69483e443cf66927af00774621e917af27
 
 ## Identity & policies
 - upstream: mysociety/fixmystreet, default branch `master`, primary language Perl (Catalyst), English-first (UK English).
@@ -30,6 +30,11 @@
 - `2026-09-03` a11y `span.report-a-problem-btn` has no keydown handler for Enter/Space (WCAG 2.1.1 Keyboard). Repro: focus the span on the report page, press Enter/Space — nothing happens; click works. Expected: Enter/Space triggers scroll-to-top + focus `#pc`, matching the click handler and the dropzone keydown pattern in `web/js/front.js`. Dedupe: merged PR #4919 added role/tabindex only; open PR #5184 is sass styling only. — status: attempted (pr-opened, fork PR #1)
 - `2026-09-03` self-found trivial pass (typos + dead links in docs + one cobrand template) — outcome: pr-opened (fork PR #2). Lesson: docs-only, meaning-preserving cleanup; UK dialect respected (colour/behaviour/organise are correct, not typos).
 - `2026-09-10` self-found trivial pass #2 (typos in docs + user-facing templates) — outcome: pr-opened (fork PR #6). Lesson: 16 genuine single-word typo fixes across 10 files (config.md, checklist.md, login.md, pro-manual/citizens-experience.md, ww-manual/resident-experience.md, admin-tasks-content.md, ww-admin-tasks-content.md, 2018-09-06-v2.4.md, faq-en-gb.html, privacy.html). Avoided re-fixing PR #2 gaps (propogate, mapit.poplus.org, transifex, MDN, untill, etc.) and avoided files PR #2 touched. UK dialect respected. Fork CI fully green (20/20 success).
+- `2026-10-01` self-found trivial pass #3 (typos in docs + Perl POD/comments) — outcome: pr-opened (fork PR #16). Lesson: 13 genuine meaning-preserving fixes across 10 files (admin_manual "about about", boundaries infinte, fixmystreet-with-sms agains, staff inbetween, training/admins responsbile, ww-manual/admin-tasks + staff-user-accounts specfically, Email/Sender "if if", Template/Variable "now now" x2 + concatinations, Geography/NationalGrid flaoting + aswell). Deduped against open PR #6 (zero file overlap) and PR #1. Branch fix-doc-and-comment-typos, commit c4a7c2f247.
+
+## Mined gaps (discovered, not yet attempted) — remainder from the 2026-10-01 pass
+- `2026-10-01` remaining genuine misspellings found but left for a later pass (10-file cap hit): Vagrantfile:60 offical; bin/fixmystreet.com/rotate-photos:4 Manaully; bin/highwaysengland/augment-junctions-database:28 descrption; conf/general.yml-docker:153 + conf/general.yml-example:154 provdes; db/rerun_dbic_loader.pl:15 commited; perllib/FixMyStreet/Cobrand/Default.pm:730 Paramters + :1187 intial; perllib/FixMyStreet/Cobrand/Bromley.pm:485 Ingore; perllib/FixMyStreet/App/Controller/Alert.pm:411 latitide; perllib/Geography/NationalGrid.pm:346 aswell (kept flaoting only) — status: proposed
+- `2026-10-01` verified dead links not fixed (no canonical replacement / already covered): http://www.dropzonejs.com 404; https://www.transifex.com/projects/p/fixmystreet/ 404 and the MDN truncated URL (both already in open PR #6); flickr photos in blog posts 404 (no replacement); remaining non-200s are example/placeholder URLs, transient 503s, or a 403 — status: dropped
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-03` typo "propogate/propogating" x3 in docs/customising/integration.md — status: attempted (pr-opened, fork PR #2)
