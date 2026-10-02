@@ -162,10 +162,19 @@ document.getElementById('pc').focus();
     if (lk && lk.addEventListener) {
         lk.setAttribute('role', 'button');
         lk.setAttribute('tabindex', '0');
-        lk.addEventListener('click', function(e){
-            e.preventDefault();
+        var goToPostcode = function() {
             scrollTo(0,0);
             document.getElementById('pc').focus();
+        };
+        lk.addEventListener('click', function(e){
+            e.preventDefault();
+            goToPostcode();
+        });
+        lk.addEventListener('keydown', function(e) {
+            if (e.keyCode === 13 || e.keyCode === 32) {
+                e.preventDefault();
+                goToPostcode();
+            }
         });
     }
 
