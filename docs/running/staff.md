@@ -8,7 +8,7 @@ author: matthew
 
 <p class="lead">Privileged accounts with access to management features.</p>
 
-Staff users are a middle rung of account, inbetween normal users of the site
+Staff users are a middle rung of account, in between normal users of the site
 and superusers with full access to everything. They are associated with a
 particular body, and can have access to different features, depending upon the
 permissions or roles granted to them. All their abilities only apply to reports

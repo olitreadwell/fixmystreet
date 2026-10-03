@@ -18,7 +18,7 @@ Subclass of Email::Sender - configuring it correctly according to our config.
 If the config value 'SMTP_SMARTHOST' is set then email is routed via SMTP to
 that. Otherwise it is sent using a 'sendmail' like binary on the local system.
 
-And finally if if FixMyStreet->test_mode returns true then emails are not sent
+And finally if FixMyStreet->test_mode returns true then emails are not sent
 at all but are stored in memory for the test suite to inspect (using
 Email::Send::Test).
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Login/authenticaton
+title: Login/authentication
 author: matthew
 ---
 

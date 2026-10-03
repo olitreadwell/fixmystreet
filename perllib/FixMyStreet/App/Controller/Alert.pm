@@ -408,7 +408,7 @@ sub process_user : Private {
 
 =head2 setup_coordinate_rss_feeds
 
-Takes the latitide and longitude from the stash and uses them to generate uris
+Takes the latitude and longitude from the stash and uses them to generate uris
 for the local rss feeds
 
 =cut 

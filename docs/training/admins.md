@@ -96,7 +96,7 @@ When a user clicks on the map to report a problem...
       for a problem that's not within that body's admin boundary
     </li>
     <li>
-      with a category of problem that the body isn't responsbile for
+      with a category of problem that the body isn't responsible for
     </li>
   </ul>
 </div>

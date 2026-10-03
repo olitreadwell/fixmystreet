@@ -39,7 +39,7 @@ If you have made alterations to your local repository, then you will need to
 make sure they are all committed to your local branch and fork first, see
 [setting up a fork](/feeding-back/) for more information. You may want
 to try checking out your repository elsewhere and trying the merge there first,
-to see if it there are any problems.
+to see if there are any problems.
 
 After updating the code, you should run the following commands to update any
 needed dependencies and any schema changes to your database. It's a good idea
