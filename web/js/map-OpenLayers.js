@@ -531,6 +531,13 @@ $.extend(fixmystreet.utils, {
                 addControlToMap();
             }
           });
+
+          $(".js-recentre-map").keydown(function(e) {
+            if (e.keyCode === 13 || e.keyCode === 32) {
+                e.preventDefault();
+                $(this).click();
+            }
+          });
       },
       toggle_base: function(e) {
           e.preventDefault();
