@@ -482,7 +482,7 @@ sub open311_munge_update_params {
 
 =head2 open311_waste_update_extra
 
-Ingore any updates from Echo that aren't New/Completed and don't have a resolution code
+Ignore any updates from Echo that aren't New/Completed and don't have a resolution code
 
 =cut
 

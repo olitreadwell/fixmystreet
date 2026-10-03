@@ -252,7 +252,7 @@ care where the problem (e.g., the pothole) is. This works fine with the web
 interface where the user can (if they want, and if the device supports it) use
 their current location which the device can automagically supply. But there's
 no such interface with SMS, and even if there was a reliable way to identify
-the location of the sender, we would warn agains sending reports on to the body
+the location of the sender, we would warn against sending reports on to the body
 responsible for fixing them when there's no way of knowing if the geolocation
 data is or is not the correct location. FixMyStreet would fail as a service if
 the authorities it is reporting to cannot trust the location information it is
