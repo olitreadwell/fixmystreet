@@ -108,7 +108,7 @@ If you're not sure which is for you, read through the sections below.
 
 ## "Everywhere"
 
-This is the simplest boundary: it's infinte, so anywhere the user clicks is
+This is the simplest boundary: it's infinite, so anywhere the user clicks is
 inside the area called "everywhere".
 
 Use this type of boundary if:

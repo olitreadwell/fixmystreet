@@ -63,7 +63,7 @@ sub html_encoded {
 sub concat {
     my ($self, $str, $prefix) = @_;
 
-    # Special case where we're _not_ going to html_encode now now
+    # Special case where we're _not_ going to html_encode now
     return $self->clone() if not defined $str or $str eq '';
 
     if ( $prefix ) {
@@ -82,7 +82,7 @@ sub concatequals {
         return $self;
     }
     else {
-        # Special case where we're _not_ going to html_encode now now
+        # Special case where we're _not_ going to html_encode now
         return $self->clone() if $str eq '';
 
         # Fix Template::HTML::Variable issue with double output
@@ -124,7 +124,7 @@ This object provides a "pretend" string to use as part of the
 FixMyStreet::Template extension.
 
 It automatically stringifies to an HTML encoded version of what it was created
-with, all the while trying to keep a sane state through string concatinations
+with, all the while trying to keep a sane state through string concatenations
 etc.
 
 =head1 FUNCTIONS

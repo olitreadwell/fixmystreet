@@ -61,7 +61,7 @@ $geolocation-link-border: $geolocation-link !default;
 $geolocation-link-background-color: transparent !default;
 
 // Useful when a cobrand has a front-main container with dark background.
-// This varaible will only be used when JS is not enabled.
+// This variable will only be used when JS is not enabled.
 $dropzone-frontpage-white-background-mobile: true !default;
 $dropzone-frontpage-border-radius: 4px !default;
 $dropzone-frontpage-color: $primary_b !default;
@@ -71,7 +71,7 @@ $footer-main-nav-padding: 2em 0 !default;
 $footer-main-nav-background: #2E3033 !default;
 $footer-main-nav-color: #fff !default;
 
-// Invisble when there is not enough space
+// Invisible when there is not enough space
 $is-mobile-menu-visible: true !default;
 
 @import "_mixins";

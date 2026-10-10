@@ -311,7 +311,7 @@ the number of radians as a floating point number.  You can also call this as a c
 
 =item rad2deg(RADIANS)
 
-Converts a floating point number of radians into a flaoting point number of degrees.  You can also call this as a class method.
+Converts a floating point number of radians into a floating point number of degrees.  You can also call this as a class method.
 
 =back
 
@@ -343,7 +343,7 @@ Modules can use this class and override methods as needed.
 
 If you do write a module then why not keep the basic object interface similar to the 'GB' and 'IE' modules - for example,
 why not simply inherit the latitude() accessor method from here. There will probably be country-specific methods that you
-wish to add aswell, and features of the GB module may not apply to your grid.
+wish to add as well, and features of the GB module may not apply to your grid.
 
 This module contains some object methods which you can inherit, and these are data(PARAMETER), northing(), easting(),
 latitude() and longitude(), and the _mercator2latlong() and _latlong2mercator() internal methods. All of these assume that your object

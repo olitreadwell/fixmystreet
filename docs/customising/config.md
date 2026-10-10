@@ -632,7 +632,7 @@ LANGUAGES:
           <p>
             OSM type codes consist of the letter O followed by two digits
             indicating the type of boundary. Typically, the higher the number,
-            the more specfic (localised) the boundary type.
+            the more specific (localised) the boundary type.
           </p>
         </li>
       </ul>
@@ -647,7 +647,7 @@ LANGUAGES:
     <code><a href="#mapit_url">MAPIT_URL</a></code>),
     you might want to restrict FixMyStreet usage
     to only one or more areas, rather than <em>all</em> areas of the
-    specified type (afer all, there are a lot of <code>O04</code> boundaries
+    specified type (after all, there are a lot of <code>O04</code> boundaries
     in the whole world, for example). Provide a list of all the MapIt
     IDs that your FixMyStreet should recognise. 
     <p>
@@ -781,7 +781,7 @@ MAPIT_ID_GENERATION: 4
     <p>
       It's also possible to add a new geocoder (for example, if your
       jurisdiction provides a custom one). This requires some coding work, but
-      you can see exampes of <a
+      you can see examples of <a
       href="https://github.com/mysociety/fixmystreet/tree/master/perllib/FixMyStreet/Geocode">supported geocoders</a> in the FixMyStreet repo.
     </p>
     <p>

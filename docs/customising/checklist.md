@@ -96,7 +96,7 @@ at the same time as others -- but if you're not sure then just work through the 
   </dt>
   <dd>
     You'll need an understanding of CSS in order to change the logo &mdash;
-    it's optimised in the FixMyStreet design for good perfomance on old or
+    it's optimised in the FixMyStreet design for good performance on old or
     narrow clients, which makes it a little bit more difficult than just
     dropping in a graphics file.
     <p>

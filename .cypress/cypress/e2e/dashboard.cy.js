@@ -22,7 +22,7 @@ describe('Dashboard page', function() {
         cy.get('tr:visible').should('contain', 'Potholes');
         cy.get('tr:visible').should('contain', 'Street lighting');
 
-        // Intially hidden categories & headings (groups)
+        // Initially hidden categories & headings (groups)
         cy.get('tr:visible').should('not.contain', 'Abandoned vehicles');
         cy.get('tr:visible').should('not.contain', 'Licensing');
         cy.get('tr:visible').should('not.contain', 'Waste');
@@ -60,7 +60,7 @@ describe('Dashboard page', function() {
         cy.get('tr:visible').should('contain', 'Potholes');
         cy.get('tr:visible').should('contain', 'Street lighting');
 
-        // Intially hidden categories & headings (groups)
+        // Initially hidden categories & headings (groups)
         cy.get('tr:visible').should('not.contain', 'Graffiti');
         cy.get('tr:visible').should('not.contain', 'Abandoned vehicles');
         cy.get('tr:visible').should('not.contain', 'Licensing');
