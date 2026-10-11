@@ -48,7 +48,7 @@
       <tbody>
         [% FOREACH icon IN editing_manifest_theme.icons %]
           <tr>
-            <td><img src="[% icon.src %]" /></td>
+            <td><img src="[% icon.src %]" alt="" /></td>
             <td class="icon-size">[% icon.sizes %]</td>
             <td><input type=checkbox name=delete_icon value='[% icon.src %]' /></td>
           </tr>
