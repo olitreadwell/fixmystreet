@@ -46,7 +46,7 @@
             [% IF field.type == 'Photo' %]
                 [% SET photos = field.value.split(',');
                    FOR photo IN photos ~%]
-                    <img align="left" src="/photo/temp.[% photo %]">
+                    <img align="left" src="/photo/temp.[% photo %]" alt="Uploaded photo">
                 [% END ~%]
             [% ELSE %]
                 [% field.pretty %]
