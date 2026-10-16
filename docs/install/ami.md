@@ -17,7 +17,7 @@ Note that this is just one of [many ways to install FixMyStreet]({{ "/install/" 
 ## Installing on Amazon's Web Services
 
 If you don't have your own server, or simply prefer to use an external one, you
-can use Amazon Web Services (AWS) instead. They provide difference scale
+can use Amazon Web Services (AWS) instead. They provide different scale
 servers, called instances. The smallest instance, the Micro, will be [free
 for a year](http://aws.amazon.com/free/).
 
@@ -95,7 +95,7 @@ and Elasticache. You would then need to build a custom slim AMI and seed the
 relevant configuration files.
 
 See the [FixMyStreet specific notes](https://github.com/mysociety/public-builds/blob/master/docs/fixmystreet.md)
-in the Pubic Builds repository for more information.
+in the Public Builds repository for more information.
 
 ## Installation complete... now customise
 

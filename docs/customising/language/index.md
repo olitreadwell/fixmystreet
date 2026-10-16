@@ -112,7 +112,7 @@ URLs for the correct language.
 
 If we don't already have a translation for the language you want, please do
 consider contributing one :) You can use our repository on
-[Transifex](https://www.transifex.com/projects/p/fixmystreet/),
+[Transifex](https://app.transifex.com/mysociety/fixmystreet/),
 or translate the `.po` files directly using a local program such as
 [PoEdit](http://www.poedit.net/).
 

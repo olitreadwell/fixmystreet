@@ -4,7 +4,7 @@ FixMyStreet::Cobrand::Hackney - code specific to the Hackney cobrand
 
 =head1 SYNOPSIS
 
-Hackney is a London borough, using two Alloy intergrations plus email.
+Hackney is a London borough, using two Alloy integrations plus email.
 
 =head1 DESCRIPTION
 

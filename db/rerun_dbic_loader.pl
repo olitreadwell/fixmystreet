@@ -12,7 +12,7 @@ BEGIN {
 
 # This script inspects the current state of the database and then amends the
 # FixMyStreet::DB::Result::* files to suit. After running the changes should be
-# inspected before the code is commited.
+# inspected before the code is committed.
 
 use FixMyStreet;
 use DBIx::Class::Schema::Loader qw/ make_schema_at /;

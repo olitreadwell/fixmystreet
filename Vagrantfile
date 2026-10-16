@@ -57,7 +57,7 @@ $full_setup = <<-EOS
     fi
 EOS
 
-# This just runs our update script, used on our offical box.
+# This just runs our update script, used on our official box.
 $update = <<-EOS
     chown -R vagrant:vagrant /home/vagrant/.cpanm
     # Ensure any new packages are installed

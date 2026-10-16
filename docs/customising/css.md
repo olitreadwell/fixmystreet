@@ -146,8 +146,7 @@ section.
 
 You can edit the colours defined in `web/cobrands/fixmypark/_colours.scss`.
 You'll need to use [web colour
-codes](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Co
-lor) to specify the colours you want.
+codes](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) to specify the colours you want.
 
 Be careful: if you're not familiar with SCSS, the syntax of that file is a
 little strict. Typically, those colours *must* always be either exactly three
