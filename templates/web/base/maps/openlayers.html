@@ -71,7 +71,7 @@
     [% ELSE %]
       <button class="map-pins-toggle" form="nojs-map-controls-form" name="nojs-map-controls" value="[% c.uri_map( { no_pins => 1 } ) %]"><span class="map-link-label">[% loc('Hide pins') %]</span></button>
     [% END %]
-    <a class="js-recentre-map hidden-nojs" tabindex="0">
+    <a class="js-recentre-map hidden-nojs" tabindex="0" role="button">
       <span class="map-link-label">[% loc('Re-centre map') %]</span>
     </a>
   [% END %]
