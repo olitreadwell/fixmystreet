@@ -47,7 +47,7 @@ one it is not necessary to do the other.
      can publish it
   </li>
   <li>
-     <strong>status changes on the back-end propogate to FixMyStreet</strong>
+     <strong>status changes on the back-end propagate to FixMyStreet</strong>
      <br>
      so staff don't have to log in to FixMyStreet and mark 
      problems as "fixed" by hand... and FixMyStreet publicises the
@@ -159,7 +159,7 @@ does, then no changes will be necessary other than to remove the scripts.
 ## Stage 2: Automatically updating problem statuses
 
 With the **second level of integration**, not only are reports injected
-directly into the back-end, but back-end status changes automatically propogate
+directly into the back-end, but back-end status changes automatically propagate
 *back* to FixMyStreet:
 
 <img src="/assets/img/fms_integration_2.png">
@@ -196,7 +196,7 @@ user to which all these updates will be credited (for example, "Borsetshire
 Council") -- if necessary you can create a user just for this purpose at
 `/admin/users`.
 
-The mechanism we use for propogating fixes (and other status changes) from the
+The mechanism we use for propagating fixes (and other status changes) from the
 back-end to the FixMyStreet site is deliberately light on the body. That is,
 once the body has implemented the update table (or its equivalent), FixMyStreet
 is responsible for polling the back-end -- there's no requirement for the body's

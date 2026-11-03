@@ -727,7 +727,7 @@ sub format_postcode {
 }
 =item area_check
 
-Paramters are AREAS, QUERY, CONTEXT. Return a boolean indicating whether
+Parameters are AREAS, QUERY, CONTEXT. Return a boolean indicating whether
 AREAS pass any extra checks. CONTEXT is where we are on the site.
 
 =cut
@@ -1184,7 +1184,7 @@ sub path_to_pin_icons { '/i/pins/' }
 
 Used to tweak the display settings of the map on the all reports pages.
 
-Used in some cobrands to improve the intial display for Internet Explorer.
+Used in some cobrands to improve the initial display for Internet Explorer.
 
 =cut
 

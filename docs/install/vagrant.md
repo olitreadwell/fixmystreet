@@ -21,7 +21,7 @@ Note that this is just one of [many ways to install FixMyStreet]({{ "/install/" 
   <a href="{{ "/glossary/#production" | relative_url }}" class="glossary__link">production</a>!
 </div>
 
-This pages describes how to use Vagrant to create a development environment
+This page describes how to use Vagrant to create a development environment
 where you can run the test suite and the development server, and make changes
 to the codebase.
 

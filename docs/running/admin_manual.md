@@ -768,7 +768,7 @@ FixMyStreet site.
       such reports to all of them.
     </p>
     <p>
-      To understand more about about this, see <a
+      To understand more about this, see <a
       href="{{ "/running/bodies_and_contacts/" | relative_url }}">Managing bodies and contacts</a>.
     </p>
   </dd>

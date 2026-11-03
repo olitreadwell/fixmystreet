@@ -27,7 +27,7 @@ database and web server, our [manual documentation](/install/) is still
 available.
 
 An AMI and install script is also available for MapIt -- see our
-[MapIt documentation](http://mapit.poplus.org/) for more details.
+[MapIt documentation](https://mapit.mysociety.org/docs/) for more details.
 This should make it very straightforward to get something set up for testing
 and development.
 

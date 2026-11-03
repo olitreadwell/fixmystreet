@@ -121,7 +121,7 @@ sub submit_creator_fixed : Private {
         {
             problem_id => $c->stash->{problem_id},
             # we want to look for any previous questionnaire here rather than one for
-            # this specific open state -> fixed transistion
+            # this specific open state -> fixed transition
             old_state  => [ FixMyStreet::DB::Result::Problem->open_states() ],
             new_state  => 'fixed - user',
         }

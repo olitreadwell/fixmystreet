@@ -426,7 +426,7 @@ sub belongs_to_body {
     printf( 'Welcome %s %s', $name->{first}, $name->{last} );
 
 Returns a hashref with first and last keys with first name(s) and last name.
-NB: the spliting algorithm is extremely basic.
+NB: the splitting algorithm is extremely basic.
 
 =cut
 

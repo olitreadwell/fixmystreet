@@ -202,7 +202,7 @@ sub oidc_sign_in : Private {
             response_mode => 'form_post',
             nonce         => $nonce,
             # auth_extra_params provides a way to pass custom parameters
-            # to the OIDC endpoint for the intial authentication request.
+            # to the OIDC endpoint for the initial authentication request.
             # This allows, for example, a custom scope to be used,
             # or the `hd` parameter which customises the appearance of
             # the login form.

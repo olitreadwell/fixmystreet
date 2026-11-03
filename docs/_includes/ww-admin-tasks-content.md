@@ -241,7 +241,7 @@ As mentioned above, you can view and filter statistics by report status. Report 
 
 If you have other statuses these have likely been set up specifically for your instance of WasteWorks. Please speak to your Administrator about what they mean.
 
-Ideally each report status should have a response template assgined to it to let the resident know what it means. <a href="https://www.societyworks.org/manuals/wasteworks/admin-tasks/#creating-and-editing-response-templates">See the Creating and editing response templates section</a>. 
+Ideally each report status should have a response template assigned to it to let the resident know what it means. <a href="https://www.societyworks.org/manuals/wasteworks/admin-tasks/#creating-and-editing-response-templates">See the Creating and editing response templates section</a>. 
 
 #### Importing dashboard data automatically
 

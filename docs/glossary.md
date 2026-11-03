@@ -765,7 +765,7 @@ technical information, see
         </li>
         <li>
           See <a
-          href="http://mapit.poplus.org/">mapit.poplus.org</a>
+          href="https://mapit.mysociety.org/docs/">mapit.mysociety.org/docs</a>
           for technical information, including how to set up your own
           installation
         </li>

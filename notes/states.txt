@@ -10,7 +10,7 @@ When a problem is created it will be unconfirmed, The problem
 becomes confirmed when the user clicks on the link sent to them in
 the confirmation email. 
 
-If a problem is uploaded from a mobile app then it is initally 
+If a problem is uploaded from a mobile app then it is initially 
 created with a state of partial.
 
 If a user is logged in then any problem they create is confirmed
@@ -29,7 +29,7 @@ the problem has been reported to:
 Updates from council users will have the name of the council they
 are from included in the meta information for that update.
 
-Any user of the sytem can mark a problem as fixed.
+Any user of the system can mark a problem as fixed.
 
 If a problem has been marked as fixed then the user who created the
 problem can reopen the problem by checking the 'This problem has not

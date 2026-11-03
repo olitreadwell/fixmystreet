@@ -17,7 +17,7 @@ Accompanying each task covered in this document, you will see ‘permissions req
 
 Please also note that there may be small differences in the way WasteWorks functions for different councils depending on how you use the service, the integration(s) you have selected, and the individual processes reflected in your workflow.
 
-Please speak to your Administrator if you have questions about functionality not covered specfically in the below guidance. If you are the Administrator and you need extra help, please open a ticket on Freshdesk.
+Please speak to your Administrator if you have questions about functionality not covered specifically in the below guidance. If you are the Administrator and you need extra help, please open a ticket on Freshdesk.
 
 {% include ww-admin-tasks-content.md %}
 

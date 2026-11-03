@@ -25,7 +25,7 @@ The junction field can be either
 
 * a junction number, e.g J12
 * a junction number and a description, e.g J12 Town Name
-* a junction/point descrption, e.g Town Name
+* a junction/point description, e.g Town Name
 
 Where the function field is a junction number and a description two rows will be created,
 one for the junction number and one for the description.
