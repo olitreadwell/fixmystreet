@@ -92,6 +92,7 @@ sub _build_current_open311 {
     my $body = $self->current_body;
     my $conf = $self->open311_config || $body;
     my %open311_conf = (
+        fixmystreet_body => $body,
         endpoint => $conf->endpoint || '',
         api_key => $conf->api_key || '',
         jurisdiction => $conf->jurisdiction || '',
@@ -331,6 +332,7 @@ sub comment_text_for_request {
 
     if ($template) {
         $template =~ s/\{\{description}}/$desc/;
+        $email_text =~ s/\{\{description}}/$desc/;
         return ($template, $email_text);
     }
 

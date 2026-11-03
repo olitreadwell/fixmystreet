@@ -111,7 +111,14 @@ function isR2L() {
                 if (!$this.addClass('hover').data('setup')) {
                     // Optionally fill $drawer with HTML from an AJAX data source
                     if (ajax) {
-                        var href = $this.attr('href') + ';ajax=1';
+                        var href;
+                        if (this.form) {
+                            href = this.form.action + '?';
+                            href += (new URLSearchParams(new FormData(this.form))).toString();
+                        } else {
+                            href = $this.attr('href');
+                        }
+                        href += '&ajax=1';
                         var margin = isR2L() ? 'margin-left' : 'margin-right';
                         var $ajax_result = $('<div>').appendTo($drawer);
                         $ajax_result.html('<p style="text-align:center">Loading</p>');
@@ -479,7 +486,7 @@ $.extend(fixmystreet.set_up, {
     // In case we've come here by clicking back to a form that disabled a submit button
     $('input[type=submit][data-disable],button[data-disable]').prop('disabled', false);
 
-    $('[data-confirm]').on('click', function() {
+    $('body').on('click', '[data-confirm]', function() {
         return confirm(this.getAttribute('data-confirm'));
     });
   },
@@ -699,8 +706,11 @@ $.extend(fixmystreet.set_up, {
             var $new_category_meta = $('#category_meta');
             $new_category_meta.closest('.js-reporting-page').toggleClass('js-reporting-page--skip', !!data.extra_hidden);
             // Preserve any existing values
-            $category_meta.find("[name]").each(function() {
+            $category_meta.find("[name]").not(":checkbox").not(":radio").each(function() {
                 $new_category_meta.find("[name='"+this.name+"']").val(this.value);
+            });
+            $category_meta.find("[name]:checked").each(function() {
+                $new_category_meta.find("[name='"+this.name+"']").val([this.value]);
             });
         } else {
             $category_meta.closest('.js-reporting-page').addClass('js-reporting-page--skip');
@@ -1410,9 +1420,9 @@ $.extend(fixmystreet.set_up, {
 
     if ($('.mobile').length) {
         // Make sure we end up with one Get updates link
-        if ($('#key-tools a.js-feed').length) {
-            $('#sub_map_links a.js-feed').remove();
-            $('#key-tools a.js-feed').appendTo('#sub_map_links');
+        if ($('#key-tools .js-feed').length) {
+            $('#sub_map_links .js-feed').remove();
+            $('#key-tools .js-feed').appendTo('#sub_map_links');
         }
         $('#key-tools li:empty').remove();
         $('#report-updates-data').insertAfter($('#map_box'));
@@ -1848,7 +1858,7 @@ $.extend(fixmystreet.set_up, {
     });
 
     $('#map_sidebar').on('click', '.js-back-to-report-list', function(e) {
-        var report_list_url = $(this).attr('href');
+        var report_list_url = this.form.action;
         var map_state = around_map_state;
         var set_map_state = true;
         fixmystreet.back_to_reports_list(e, report_list_url, map_state, set_map_state);
@@ -2287,7 +2297,7 @@ fixmystreet.display = {
             // Set the Back link to know where to go back to.
             // TODO: If you e.g. filter before selecting a report, this URL is
             // wrong (but what is shown is correct).
-            $('.js-back-to-report-list').attr('href', fixmystreet.original.href);
+            $('.js-back-to-report-list')[0].form.action = fixmystreet.original.href;
 
             // Problems nearby on /my should go to the around page,
             // otherwise show reports within the current map view.

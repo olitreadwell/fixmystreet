@@ -71,7 +71,7 @@ sub report_age {
 
 =cut
 
-sub cut_off_date { '2026-09-01' }
+sub cut_off_date { '2026-09-14' }
 
 =item * Some customised pins (yellow/blue/green/grey)
 
@@ -138,6 +138,17 @@ sub categories_restriction {
     #     'me.send_method' => undef, # Open311 categories, or National Highways
     #     'me.send_method' => '', # Open311 categories that have been edited in the admin
     # ] } );
+}
+
+sub munge_around_filter_category_list {
+    my ($self) = @_;
+    my $cats = $self->{c}->stash->{category_groups}[0]{categories};
+    @$cats = grep { $_->category eq 'Potholes' } @$cats;
+}
+
+sub munge_reports_category_list {
+    my ($self, $categories) = @_;
+    @$categories = grep { $_->category eq 'Potholes' } @$categories;
 }
 
 =item * Fetch the nearest USRN if we don't have it already
